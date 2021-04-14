@@ -1,4 +1,3 @@
-
 const weatherForm = document.querySelector('form');
 const button = document.querySelector('button');
 const search = document.querySelector('input');
