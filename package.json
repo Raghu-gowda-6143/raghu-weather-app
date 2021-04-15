@@ -2,19 +2,22 @@
   "name": "web-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node src/app.js",
-    "dev": "nodemon src/app.js -e js,hbs"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raghu-gowda-6143/raghu-weather-app.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raghu-gowda-6143/raghu-weather-app/issues"
+  },
+  "homepage": "https://github.com/Raghu-gowda-6143/raghu-weather-app#readme",
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.1.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.7"
   }
 }
